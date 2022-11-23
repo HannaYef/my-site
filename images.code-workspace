@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "images",
+		"path": "../about-me/images"
+	},
+	{
+		"name": "my-site",
+		"path": "."
+	}
+],
+  "settings": {}
+}
