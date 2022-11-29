@@ -29,7 +29,21 @@ body {
   font-size: 24px;
   color: #272142;
 }
-
+.about-section {
+  text-align: center;
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h3 {
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.about-section-content {
+  margin: 30px;
+}
 h1,
 h2,
 h3 {
@@ -152,4 +166,9 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
