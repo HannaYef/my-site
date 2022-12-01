@@ -7,6 +7,30 @@
 body {
   margin-top: 100px;
 }
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 10px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+nav li.active a {
+  color: #6c63ff;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
 .hero {
   text-align: center;
   background: #f9f7fe;
