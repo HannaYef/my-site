@@ -55,7 +55,7 @@ nav a {
 }
 .content-conteiner {
   text-align: center;
-  padding: 160px 20px;
+  padding: 30px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -229,4 +229,30 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--primary-color);
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+h4 {
+  font-size: 48px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.text-muted {
+  color: #6c757d !important;
 }
